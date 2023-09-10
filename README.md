@@ -20,12 +20,13 @@ For this task i had to make a series of assumptions that are listed below.
 
 ### How to run
 1. Clone repository
-2. Run `make up` to start docker containers
-3. Run `make composer` to install dependencies
-4. Run `make migrate` to run migrations and seeders
-5. Run `make tests` to run tests
-6. Run `make swagger` to generate swagger [documentation](http://localhost/api/documentation) 
-7. Run `make bash` to run artisan commands
+2. Copy the .env.example file as .env
+3. Run `make up` to start docker containers
+4. Run `make composer` to install dependencies
+5. Run `make migrate` to run migrations and seeders
+6. Run `make tests` to run tests
+7. Run `make swagger` to generate swagger [documentation](http://localhost/api/documentation) 
+8. Run `make bash` to run artisan commands
 
 ### Realization
 The task has been done mostly to show some general ideas about Laravel capabilities as well as some ideas about folder
